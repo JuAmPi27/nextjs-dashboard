@@ -1,10 +1,10 @@
 import { Suspense } from 'react';
-import { fetchCardData, fetchLatestInvoices, fetchRevenue } from '../lib/data';
-import { Card } from '../ui/dashboard/cards';
-import LatestInvoices from '../ui/dashboard/latest-invoices';
-import RevenueChart from '../ui/dashboard/revenue-chart';
-import { lusitana } from '../ui/fonts';
-import { LatestInvoicesSkeleton, RevenueChartSkeleton } from '../ui/skeletons';
+import { fetchCardData } from '../../lib/data';
+import { Card } from '../../ui/dashboard/cards';
+import LatestInvoices from '../../ui/dashboard/latest-invoices';
+import RevenueChart from '../../ui/dashboard/revenue-chart';
+import { lusitana } from '../../ui/fonts';
+import { LatestInvoicesSkeleton, RevenueChartSkeleton } from '../../ui/skeletons';
 
 export default async function DashboardPage() {
   
